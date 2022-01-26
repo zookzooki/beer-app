@@ -46,8 +46,7 @@ const ItemCard = () => {
         onClick={() => changeFavourite && changeFavourite(params.id)}
       />
       <span className="title__name">
-        { info.name}
-        {' '}
+        {info.name}
       </span>
     </div>
   );

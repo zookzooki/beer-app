@@ -7,7 +7,6 @@ import 'primeicons/primeicons.css';
 import { Link } from 'react-router-dom';
 import { ProgressSpinner } from 'primereact/progressspinner';
 
-import './List.css';
 import { load } from '../../api/punkapi';
 import { FavouritesContext } from '../../context/FavouritesContext';
 import { ItemCardType, DataResponseType } from '../../types/punkApiResponse';
