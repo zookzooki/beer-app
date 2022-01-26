@@ -1,0 +1,27 @@
+.card {
+    margin: 10%;
+    display: flex;
+    padding: 20px;
+}
+
+.title__name {
+    margin: 5px;
+}
+
+.card .picture {
+    width: 70px;
+    height: auto;
+}
+
+@media (max-width: 620px) {
+    .card {
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card .picture {
+        width: 30%;
+        height: auto;
+    }
+}
