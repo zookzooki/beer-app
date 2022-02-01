@@ -58,7 +58,7 @@ const ItemCard = () => {
           <p className="m-0">{info.description}</p>
         </Card>
       )
-      : <ProgressSpinner />
+      : <ProgressSpinner className="loader" />
   );
 };
 
