@@ -57,5 +57,5 @@ export const List = () => {
         </DataTable>
       </div>
     )
-    : <ProgressSpinner />;
+    : <ProgressSpinner className="loader" />;
 };
